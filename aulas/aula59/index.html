@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        .quadrado {
+            height: 100px;
+            width: 100px;
+        }
+
+        .quadrado-red {
+            position: sticky;
+            width: 100%;
+            background-color: red;
+        }
+
+        .quadrado-blue {
+            background-color: blue; 
+        }
+
+        .quadrado-green {
+            background-color: green;
+
+        }
+
+        .quadro {
+            position: relative;
+            height: 4000px;
+            width: 500px;
+            border: 1px solid black;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="quadrado quadrado-red"></div>
+    <div class="quadro">
+        <div class="quadrado quadrado-blue"></div>
+        <div class="quadrado quadrado-green"></div>
+    </div>
+</body>
+
+</html>
