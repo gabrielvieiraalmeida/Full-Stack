@@ -1,7 +1,6 @@
 
-var d = new Date("05-15-1999");
+var d = new Date("05-02-2025");
 
-var dias = ["dom", "seg", "ter", "qua", "qui", "sex", "sab"]
 
-console.log(d);
-console.log(dias[d.getDay()])
+console.log(d.setFullYear(2));
+console.log(d)
